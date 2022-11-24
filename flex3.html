@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex</title>
+    <style>
+        .grandfather{
+            height: 100vh;
+            background-color: rgb(50, 95, 231);
+            width: 70%;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+        }
+
+        .parent{
+            
+            /*height: 100px;
+            width: 100px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+            margin-right: 10px;*/
+            display: flex;
+            /*justify-content: center;
+            align-items: flex-end;*/
+        }
+
+        .grandson1,
+        .grandson2,
+        .grandson3,
+        .son1{
+            height: 100px;
+            width: 100px;
+            border-radius:50% ;
+            margin-bottom:10px ;
+            margin-right: 10px;
+            background-color: rgba(226, 43, 220, 0.868);
+           /* display: flex;
+            justify-content:space-between;
+            align-items:flex-end ;*/
+
+        }
+        body{
+            background-color: rgb(50, 95, 231);
+        }
+    </style>
+</head>
+<body>
+    <div class="grandfather">
+        <div class="son1"></div>
+        <div class="parent">
+            <div class="grandson1"></div>
+            <div class="grandson2"></div>
+            <div class="grandson3"></div>
+            <div class="grandson3"></div>
+
+
+        </div>
+    </div>
+</body>
+</html>
